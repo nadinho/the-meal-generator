@@ -1,29 +1,14 @@
-@use "../theme.scss";.h2 {
-  font-size: 2rem;
+@use "../theme.scss";
+
+.h2 {
+  font-size: 1.8rem;
 }
 
 .p {
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 .btn {
-  border: 1px solid green;
-}
-
-/*
-.btn__link {
-  text-decoration: none;
-
-  color: black;
-  font-family: 'Spartan';
-  font-weight: 900;
-}
-
-.btn__link:hover {
-  text-decoration: underline;
-}
-
-.btn__grad {
   position: relative;
   background-color: transparent;
   height: 80px;
@@ -36,8 +21,12 @@
   font-size: 20px;
 }
 
-.btn__grad::after,
-.btn__grad::before {
+.btn:hover {
+  text-decoration: underline;
+}
+
+.btn::after,
+.btn::before {
   content: '';
   display: block;
   position: absolute;
@@ -48,7 +37,7 @@
   border-radius: 2px;
 }
 
-.btn__grad::after {
+.btn::after {
   bottom: 0;
   right: 0;
   border-top-color: transparent;
@@ -57,7 +46,7 @@
   border-right-color: #eb4135;
 }
 
-.btn__grad::before {
+.btn::before {
   top: 0;
   left: 0;
   border-bottom-color: transparent;
@@ -66,9 +55,8 @@
   border-left-color: #fef695;
 }
 
-.btn__grad:hover:after,
-.btn__grad:hover:before {
+.btn:hover::after,
+.btn:hover::before {
   width: 100%;
   height: 100%;
 }
-*/
