@@ -47,5 +47,6 @@
     "_.{js}": "eslint --fix",
     "_.{js,css,scss,md,json}": "prettier --write",
     "*.js": "eslint --cache --fix"
-  }
+  },
+  "main": ".eslintrc.js"
 }

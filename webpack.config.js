@@ -11,7 +11,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "Template"
+      title: "Meal Generator"
     })
   ],
   devServer: {
