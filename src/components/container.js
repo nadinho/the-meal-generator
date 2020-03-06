@@ -1,10 +1,26 @@
-import './title.scss';
+import './container.scss';
 import { createElement } from '../lib/dom';
 
-export function title(text) {
-  const element = createElement('h1', {
+export function createHeading(text) {
+  const heading = createElement('h2', {
     innerText: text,
-    className: 'title'
+    className: 'h2'
   });
-  return element;
+  return heading;
+}
+
+export function createParagraph(text) {
+  const paragraph = createElement('p', {
+    innerText: text,
+    className: 'p'
+  });
+  return paragraph;
+}
+
+export function createButton(text) {
+  const btn = createElement('button', {
+    innerText: text,
+    className: 'btn'
+  });
+  return btn;
 }

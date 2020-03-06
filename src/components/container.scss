@@ -1,5 +1,74 @@
-@use "../theme.scss";
-
-.container {
-    height: 100hv;
+@use "../theme.scss";.h2 {
+  font-size: 2rem;
 }
+
+.p {
+  font-size: 2rem;
+}
+
+.btn {
+  border: 1px solid green;
+}
+
+/*
+.btn__link {
+  text-decoration: none;
+
+  color: black;
+  font-family: 'Spartan';
+  font-weight: 900;
+}
+
+.btn__link:hover {
+  text-decoration: underline;
+}
+
+.btn__grad {
+  position: relative;
+  background-color: transparent;
+  height: 80px;
+  width: 200px;
+  padding: 1em 1.5em;
+  margin: 1em 0.8em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn__grad::after,
+.btn__grad::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border: 5px solid;
+  transition: all 0.6s ease;
+  border-radius: 2px;
+}
+
+.btn__grad::after {
+  bottom: 0;
+  right: 0;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #781714;
+  border-right-color: #eb4135;
+}
+
+.btn__grad::before {
+  top: 0;
+  left: 0;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #fead6a;
+  border-left-color: #fef695;
+}
+
+.btn__grad:hover:after,
+.btn__grad:hover:before {
+  width: 100%;
+  height: 100%;
+}
+*/
