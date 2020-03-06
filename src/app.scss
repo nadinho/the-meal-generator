@@ -1,0 +1,20 @@
+.header {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Spartan';
+}
+
+.logo {
+  height: 150px;
+}

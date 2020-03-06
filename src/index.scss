@@ -1,0 +1,26 @@
+@use "./theme";
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+*,
+*::after,
+*::before body {
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: 'Spartan';
+}
+
+body::after {
+  content: '';
+  background-image: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1531&q=80);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
