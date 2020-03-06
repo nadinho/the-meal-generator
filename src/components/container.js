@@ -18,9 +18,8 @@ export function createParagraph(text) {
 }
 
 export function createButton(text) {
-  const btn = createElement('input', {
-    type: 'button',
-    value: text,
+  const btn = createElement('button', {
+    innerHTML: text,
     className: 'btn'
   });
   return btn;

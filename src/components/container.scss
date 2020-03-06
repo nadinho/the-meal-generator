@@ -1,7 +1,7 @@
 @use "../theme.scss";
 
 .h2 {
-  font-size: 1.8rem;
+  font-size: 2.3rem;
 }
 
 .p {
@@ -10,19 +10,19 @@
 
 .btn {
   position: relative;
-  background-color: transparent;
-  height: 80px;
-  width: 200px;
+  background: transparent;
+  height: 120px;
+  width: 250px;
   padding: 1em 1.5em;
   margin: 1em 0.8em;
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 1.8rem;
 }
 
 .btn:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn::after,
