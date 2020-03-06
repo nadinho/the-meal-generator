@@ -30,5 +30,12 @@ export function app() {
   appendContent(header, [logo, titleElement]);
   appendContent(main, [heading, paragraph, btn]);
 
+  btn.addEventListener('click', () => {
+    alert('jo');
+    /*fetch('https://www.themealdb.com/api/json/v1/1/random.php')
+      .then(result => result.json())
+      .then(result => {meals});*/
+  });
+
   return [header, main];
 }
