@@ -27,8 +27,8 @@ export function app() {
   Just click this button and get a very delicious recipe!`);
   const btn = createButton('→ Get recipe');
 
-  appendContent(header, titleElement);
-  appendContent(main, [logo, heading, paragraph, btn]);
+  appendContent(header, [logo, titleElement]);
+  appendContent(main, [heading, paragraph, btn]);
 
   return [header, main];
 }
