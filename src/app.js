@@ -6,6 +6,7 @@ import {
   createParagraph,
   createButton
 } from './components/container';
+import Logo from './assets/butterbrot.png';
 
 export function app() {
   const header = createElement('header', {
@@ -15,6 +16,11 @@ export function app() {
     className: 'main'
   });
 
+  const logo = createElement('img', {
+    className: 'logo',
+    src: Logo
+  });
+
   const titleElement = title('Meal Generator');
   const heading = createHeading('What should I eat today?');
   const paragraph = createParagraph(`You're hungry and need menu suggestions?
@@ -22,7 +28,7 @@ export function app() {
   const btn = createButton('→ Get recipe');
 
   appendContent(header, titleElement);
-  appendContent(main, [heading, paragraph, btn]);
+  appendContent(main, [logo, heading, paragraph, btn]);
 
   return [header, main];
 }

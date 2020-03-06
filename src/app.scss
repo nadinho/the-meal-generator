@@ -1,6 +1,7 @@
 .header {
-  height: 10vh;
-  margin-bottom: 100px;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
 }
 
 .main {
@@ -12,4 +13,8 @@
   flex-direction: column;
   text-align: center;
   font-family: 'Spartan';
+}
+
+.logo {
+  height: 150px;
 }
