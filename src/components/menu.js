@@ -7,7 +7,7 @@ async function fetchMenu() {
   const results = await response.json();
   const recipe = results.meals[0];
 
-  console.log(recipe);
+  return recipe;
 }
 
 export function fetchDataCreateMenu() {
